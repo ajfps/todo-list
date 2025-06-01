@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  margin: 0 10%;
+  overflow-x: hidden;
+}
+
+.left-pane,
+.right-pane {
+  height: 100%;
+  width: 100%;
+}
+
+.left-pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-pane h1{
+    font-weight: 600;
+}
+
+.left-pane h2{
+    font-weight: 500;
+}
+
+.left-pane h3{
+    font-weight: 400;
+}
+
+
+.left-pane-container {
+  background-color: #f8f8f8;
+  height: 90%;
+  width: 90%;
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.todo-functionalities{
+    margin-bottom: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.todo-nav-row, .todo-project-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    gap: 24px;
+}
+
+.todo-nav-row, .todo-project-row{
+    font-size: 24px;
+}
+
+.todo-nav-row h3, .todo-project-row h3{
+    font-size: 18px;
+}
+
+.todo-project-nav-container{
+    margin-top: 20%;
+}
+
+.todo-project-nav{
+    margin-top: 12px;
+}
+
+.right-pane {
+    padding: 3%
+}
+
+.tab-heading{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.content{
+    max-width: 70%;
+}
+
+.add-todo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: gray;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid #f8f8f8;
+    padding: 12px 0;
+}
+
+.add-todo h2{
+    font-weight: 600;
+}
+
+.add-todo i{
+    font-size: 48px;
+}
