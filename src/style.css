@@ -31,18 +31,17 @@ body {
   align-items: center;
 }
 
-.left-pane h1{
-    font-weight: 600;
+.left-pane h1 {
+  font-weight: 600;
 }
 
-.left-pane h2{
-    font-weight: 500;
+.left-pane h2 {
+  font-weight: 500;
 }
 
-.left-pane h3{
-    font-weight: 400;
+.left-pane h3 {
+  font-weight: 400;
 }
-
 
 .left-pane-container {
   background-color: #f8f8f8;
@@ -56,73 +55,150 @@ body {
   flex-direction: column;
 }
 
-.todo-functionalities{
-    margin-bottom: 80%;
-    display: flex;
-    flex-direction: column;
+.todo-functionalities {
+  margin-bottom: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
-.todo-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 12px;
+.todo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
 }
 
-.todo-nav-row, .todo-project-row{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 12px;
-    gap: 24px;
+.todo-nav-row,
+.todo-project-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  gap: 24px;
 }
 
-.todo-nav-row, .todo-project-row{
-    font-size: 24px;
+.todo-nav-row,
+.todo-project-row {
+  font-size: 24px;
 }
 
-.todo-nav-row h3, .todo-project-row h3{
-    font-size: 18px;
+.todo-nav-row h3,
+.todo-project-row h3 {
+  font-size: 18px;
 }
 
-.todo-project-nav-container{
-    margin-top: 20%;
+.todo-project-nav-container {
+  margin-top: 20%;
 }
 
-.todo-project-nav{
-    margin-top: 12px;
+.todo-project-nav {
+  margin-top: 12px;
 }
 
 .right-pane {
-    padding: 3%
+  padding: 3%;
 }
 
-.tab-heading{
-    font-size: 72px;
-    font-weight: 900;
-    margin-bottom: 24px;
+.tab-heading {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 24px;
 }
 
-.content{
-    max-width: 70%;
+.content {
+  max-width: 70%;
 }
 
-.add-todo{
+.add-todo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: gray;
+  border-top: 2px solid #f8f8f8;
+  border-bottom: 2px solid #f8f8f8;
+  padding: 12px 0;
+}
+
+.add-todo h2 {
+  font-weight: 600;
+}
+
+.add-todo i {
+  font-size: 48px;
+}
+
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 12px;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-row label {
+  font-size: 18px;
+}
+
+.form-row input{
+    padding: 2px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+}
+
+.form-row input,
+.form-row label {
+  width: 50%;
+}
+
+.radio-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-container {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todo{
+  display: flex;
+  justify-content: space-between;
     display: flex;
-    align-items: center;
-    gap: 24px;
-    color: gray;
-    border-top: 2px solid #f8f8f8;
-    border-bottom: 2px solid #f8f8f8;
-    padding: 12px 0;
+  align-items: center;
+  color: black;
+  border-top: 2px solid #f8f8f8;
+  border-bottom: 2px solid #f8f8f8;
 }
 
-.add-todo h2{
-    font-weight: 600;
+.todos-container{
+
 }
 
-.add-todo i{
-    font-size: 48px;
+.todo-utility-details{
+  display: flex;
+  flex-direction: column;
 }
