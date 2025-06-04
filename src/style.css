@@ -59,6 +59,7 @@ body {
   margin-bottom: 80%;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .todo-nav {
@@ -201,4 +202,21 @@ form {
 .todo-utility-details{
   display: flex;
   flex-direction: column;
+}
+
+.projects-nav-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.add-project-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.add-project-btn h2{
+  font-size: 18px;
 }
